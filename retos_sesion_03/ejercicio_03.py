@@ -1,0 +1,16 @@
+print('\t\t-----🍽️ Tutorial de cómo lavar platos 🍽️-----')
+print('\t1. Primero debemos reunir todos los platos sucios 🥣🧼')
+print('\t2. Luego debemos traer el lavavajillas que utilizaremos 🧴')
+print('\t3. Debemos colocar el lavavajillas en una esponja 🧽')
+print('\t  (Esta esponja debe ser específica para lavar los platos)')
+print('\t4. Podemos frotar un poco la esponja para que haga espuma 💦')
+print('\t  (De esta manera el lavavajillas se activará )')
+print('\t5. Ahora debemos tomar el plato y empezar a frotarlo con la esponja 🧼🍽️') 
+print('\t  (Esto se hará hasta que las manchas del plato desaparezcan )')
+print('\t6. Luego debemos enjuagar el plato con agua limpia 🚿')
+print('\t7. Procuramos que no quede nada de espuma en el plato ')
+print('\t8. Ahora debemos colocar el plato en algún lugar seguro para que se seque ☀️')
+print('\t9. Una vez teniendo nuestros platos limpios podemos disfrutar de una buena comida 😋')  
+print('\t\t-----🍽️ Fin del tutorial de cómo lavar platos 🍽️-----')
+
+
