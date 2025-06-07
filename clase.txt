@@ -1,0 +1,241 @@
+Mauricio Ramirez Salamanca
+15:15
+code .
+estando en la carpeta
+Python La Paz
+15:16
+sesion05.py
+Python La Paz
+15:17
+print(type(1))
+Python La Paz
+15:20
+python sesion05.py
+https://basic.study.pylapaz.org/content/sesion05
+Python La Paz
+15:25
+python
+Python La Paz
+15:27
+1variable = 1
+cas@ = "hola"
+class = 10
+Python La Paz
+15:36
+print (10)
+print ( type (10) )
+variable = 100
+print (variable)
+print ( type (variable) )
+Python La Paz
+15:38
+variable_2 = int (20)
+print (variable_2)
+print ( type (variable_2) )
+Python La Paz
+15:42
+print ("Base decimal")
+print (10)
+# Valor 10 en binario
+print ("Base binaria")
+print (0b1010)
+# Valor 10 en octal
+print ("Base octal")
+print (0o12)
+# Valor 10 en hexadecimal
+print ("Base hexadecimal")
+print (0xa)
+Mauricio Ramirez Salamanca
+15:43
+una consulta si yo tengo la suma: a = 0xa + 0xb
+
+cómo imprimo "a" en formato hexadecimal
+Python La Paz
+15:46
+variable_3 = 123456789012345678901234567890123456789012345678901234567890
+print (variable_3)
+print (type (variable_3))
+Python La Paz
+15:52
+print (0.5)
+print ( type (0.5) )
+Python La Paz
+15:53
+variable_4 = 0.100546
+print (variable_4)
+print ( type (variable_4) )
+variable_7 = float (1)
+print(variable_7)
+print ( type (variable_7) )
+Python La Paz
+15:55
+variable_6 = 2.0e-3
+print(variable_6)
+print ( type (variable_6) )
+Python La Paz
+15:59
+variable_5 = 0.9999999999999999
+print(variable_5)
+print ( type (variable_5) )
+Python La Paz
+16:07
+a = 10
+b = 3
+# Suma
+print ("Suma")
+print (a + b)
+# Resta
+print ("Resta")
+print (a - b)
+# Multiplicación
+print ("Multiplicación")
+print (a * b)
+# División
+print ("División")
+print (a / b)
+# Potencia
+print ("Potencia")
+print (a ** b)
+# Módulo o residuo
+print ("Módulo o residuo")
+print (a % b)
+# División entera
+print ("División entera")
+print (a // b)
+Mauricio Ramirez Salamanca
+16:19
+ah no ninguna
+solo ya terminé el ejercicio jeje
+NICOLAS FRANCISCO MOLINA GONZALES
+16:20
+Ya está
+NICOLAS FRANCISCO MOLINA GONZALES
+16:21
+m = 300
+s = 3600
+
+h = 300/60 + 3600/60/60
+
+print (h)
+Mauricio Ramirez Salamanca
+16:21
+m = 300
+s = 3600
+
+h = m // 60 + s // 3600
+print("horas en total:", h)
+Ana Guadalupe Perez Rosas
+16:21
+#jercicio 01
+conta1 = 300
+contaadi = 3600
+conta2 = contaadi/60
+contafinal = int ((conta1 + conta2)/60)
+print ("Total horas ",contafinal)
+Valeria Fernandez
+16:22
+min=300
+seg=3600
+hr_mn=300/60
+hr_seg=(3600/60)/60
+print("Total: ",hr_mn+hr_seg)
+Luciana Saavedra Ayarde
+16:22
+minutos=300
+segundos=3600
+horas=(minutos*(3600/60))/60
+print(horas)
+Amilcar Mamani Flores
+16:22
+con_min = 300
+sum = 3600
+hr_min = 60
+
+sum_min = sum / 60
+
+sum_tot = con_min + sum_min
+resl = sum_tot / 60
+print(resl)
+Tú
+16:24
+inutos = 300
+segundos = 3600
+horas_min = minutos / 60
+horas_seg = segundos / 360
+horas_total = horas_min + horas_seg
+print("El total de horas es:", horas_total)
+Luciana Saavedra Ayarde
+16:24
+yo tengo un error en el código, perdón
+ahora lo corrijo
+ADRIANA MARIBEL QUISPE CARRILLO
+16:25
+minutos = 300
+segundos = 3600
+minutos_extra = segundos / 60
+minutos_totales = minutos + minutos_extra
+horas_totales = minutos_totales / 60
+print("total de", horas_totales, "horas.")
+Luciana Saavedra Ayarde
+16:27
+minutos=300
+segundos=3600
+minutos_extra=segundos/60
+minutos_total=minutos+minutos_extra
+horas=minutos_total/60
+print(horas)
+Ana Guadalupe Perez Rosas
+16:28
+/
+Luciana Saavedra Ayarde
+16:28
+división
+ADRIANA MARIBEL QUISPE CARRILLO
+16:28
+Division
+Drakmer Alain Rodriguez Chicchi
+16:29
+contador = 300
+segundos = 3600
+conv_segundo = 3600 / 60
+resultado = conv_segundos + contador
+resultado_final = resultado / 60
+print (resultado_final)
+Python La Paz
+16:33
+print ("Operadores de comparación")
+comparar = 10
+print (comparar < 10)
+print (comparar > 10)
+print (comparar == 10)
+print (comparar <= 10)
+print (comparar >= 10)
+print (comparar != 10)
+Python La Paz
+16:38
+print ("Operadores de comparación con int - float")
+entero = 10
+flotante = 10.0
+print (entero < flotante)
+print (entero > flotante)
+print (entero == flotante)
+print (entero <= flotante)
+print (entero >= flotante)
+print (entero != flotante)
+Ana Guadalupe Perez Rosas
+16:41
+no
+Richard Choquerive Ramos
+16:41
+push
+Luis Enrique Ledezma López
+16:41
+no
+Anahi Cabrera Calisaya
+16:41
+Push
+Python La Paz
+16:42
+git add .
+git commit -m "Clase sesión 05"
+git push
