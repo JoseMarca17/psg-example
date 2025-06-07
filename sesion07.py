@@ -232,3 +232,27 @@ cadena = "El valor de PI es: {}"
 formateado = cadena.format(3.1416)
 print (cadena)
 print (formateado)
+
+print ("Función format con índices")
+cadena = "{2} es la suma de {0} y {1}"
+valor_1 = 5
+valor_2 = 3
+resultado = valor_1+valor_2
+formateado = cadena.format(valor_1, valor_2, resultado)
+print (cadena)
+print (formateado)
+
+print ("Función format con nombres")
+cadena = "{ciudad} es la capital de {pais}"
+pais = "Francia"
+ciudad = "París"
+formateado = cadena.format(pais=pais, ciudad=ciudad)
+print (cadena)
+print (formateado)
+
+print ("Función format con f-string")
+moneda = "Boliviano"
+pais = "Bolivia"
+formateado = f"La moneda de {pais} es el {moneda}"
+print (formateado)
+
