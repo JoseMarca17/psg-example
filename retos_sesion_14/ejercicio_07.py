@@ -1,5 +1,11 @@
 def crear_tablero():
-    return [[" " for _ in range(3)] for _ in range(3)]
+    tablero = []  
+    for fila in range(3):
+        fila_tablero = []  
+        for columna in range(3):
+            fila_tablero.append(" ")  
+        tablero.append(fila_tablero)  
+    return tablero
 
 def mostrar_tablero(tablero):
     for fila in tablero:
@@ -36,17 +42,17 @@ def tres_en_raya():
         columna = int(input("Ingresa columna (0-2): "))
         
         if fila < 0 or fila > 2 or columna < 0 or columna > 2:
-            print("Posición invalida. Intenta de nuevo.\n")
+            print("Posición invalida.\n")
             continue
         if tablero[fila][columna] != " ":
-            print("La casilla ya esta ocupada.\n")
+            print("La casilla esta ocupada.\n")
             continue
 
         tablero[fila][columna] = turno
 
         if verificar_ganador(tablero):
             mostrar_tablero(tablero)
-            print(f"\n¡Jugador '{turno}' ha ganado!")
+            print(f"\n¡Jugador '{turno}' gano!")
             break
 
         if verificar_tablero(tablero):
