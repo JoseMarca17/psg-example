@@ -8,6 +8,9 @@ print(f"Saldo disponible: {saldo_disponible} Bs")
 
 try:
     monto = float(input("Ingrese el monto a retirar: "))
+    
+    if monto <= 0:
+        raise Exception("Monto invalido. El monto a retirar debe ser mayor a cero")
 
     if monto > 1000:
         raise Exception("Monto excede el límite de 1000 Bs por transacción.")
