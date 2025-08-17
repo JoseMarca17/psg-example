@@ -1,6 +1,6 @@
 while True:
     frase = input("\nEscribe una frase: (o escribe salir par terminar): ").lower()
-    if frase == 'salir':
+    if 'salir' in frase:
         print("Saliendo del programa ...")
         break
 
