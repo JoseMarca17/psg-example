@@ -44,8 +44,9 @@ def tres_en_raya():
         if fila < 0 or fila > 2 or columna < 0 or columna > 2:
             print("Posición invalida.\n")
             continue
+        
         if tablero[fila][columna] != " ":
-            print("La casilla esta ocupada.\n")
+            print("La casilla ya esta ocupada.\n")
             continue
 
         tablero[fila][columna] = turno
