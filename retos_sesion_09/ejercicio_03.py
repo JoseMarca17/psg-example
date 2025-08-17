@@ -2,7 +2,7 @@ nombres = ['Pedro', 'Andrea', 'Jose', 'Rafael', 'Paola', 'Daniela', 'Kevin', 'Al
         , 'Vanesa', 'Jesus']
 
 print("La lista original es: ", nombres)
-sublista = nombres[5:9:2]
+sublista = nombres[5:10:2]
 print('\nLa sublista es: ', sublista)
 sublista.sort()
 nombre_a_buscar = 'Jose'

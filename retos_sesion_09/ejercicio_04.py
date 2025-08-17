@@ -41,10 +41,19 @@ print('\nLa cantidad total de productos es: ', total_cantidad)
 total_costos = sum(precios)
 print('\nLa suma del costo de todos los productos es:', total_costos)
 
-# Ordenar productos usando lista de  tuplas y zip para unirlos 
-productos_con_precio = list(zip(precios, productos))
-productos_con_precio.sort()
-print("\nProductos ordenados del mas barato al mas caro: ", productos_con_precio)
+'''Ordenamos mediante el uso de listas por comprension
+Se genera una lista de indices con los precios ordenados
+Se tomo la lista en base al rango de el tamaño de la lista para que va de 0 hasta len()-1
+Se uso el metodo __getitem__ para obtener los valores de los precios como lo explica en el libro
+python para todos de la bibliografia que esta en el repositorio y se ordena con el sorted en base 
+a esos valores
+'''
+
+indices_precios_ordenados = sorted(range(len(precios)), key=precios.__getitem__) 
+productos = [productos[i] for i in indices_precios_ordenados] 
+precios = [precios[i] for i in indices_precios_ordenados] 
+print("\nProductos ordenados del más barato al más caro:", productos) 
+print("Precios ordenados del más barato al más caro:", precios)
 
 #Eliminar todos los productos y precios
 productos.clear()
